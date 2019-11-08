@@ -39,6 +39,7 @@ header > .navbar.nav_bar.navbar-dark > .navbar-brand{
 }
 .days{
     opacity: 0;
+    display: none;
 }
 img{
     filter: drop-shadow(2px 4px 6px black);
