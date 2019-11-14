@@ -166,23 +166,7 @@ function windF(qu) {
         $('.windW').append(`<td>${Math.round(responceNearby.list[i].wind.speed)} ${deg(Math.round(responceNearby.list[i].wind.deg))}</td>`);
         
     }
-}
-function geo_success(position) {
-  do_something(position.coords.latitude, position.coords.longitude);
-}
 
-function geo_error() {
-  alert("Sorry, no position available.");
-}
-
-var geo_options = {
-  enableHighAccuracy: true, 
-  maximumAge        : 30000, 
-  timeout           : 27000
-};
-
-var wpid = navigator.geolocation.watchPosition(geo_success, geo_error, geo_options);
-console.log(wpid);
 //API
 function ip() {
     $.getJSON("http://ip-api.com/json/", function(e) {
