@@ -166,7 +166,7 @@ function windF(qu) {
         $('.windW').append(`<td>${Math.round(responceNearby.list[i].wind.speed)} ${deg(Math.round(responceNearby.list[i].wind.deg))}</td>`);
         
     }
-
+}
 //API
 function ip() {
     $.getJSON("http://ip-api.com/json/", function(e) {
