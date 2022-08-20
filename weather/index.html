@@ -445,7 +445,11 @@
 	</header>
 	<main class="home-page">
 		<section class="main_banner full-container">
-			<img class="background_image lazy blured" loading="lazy" decoding="async" data-src="./images/main_banner.webp" />
+			<picture>
+				<source media="(max-width: 600px)" data-srcset="./images/main_banner_mob.webp" />
+				<img class="background_image lazy blured" data-src="./images/main_banner.webp"  />
+			</picture>
+			
 			<div class="main_banner-info">
 				<h1 class="main-title">home title</h1>
 				<h2 class="pre-title">home pre_title</h2>
