@@ -1,1473 +1,1475 @@
- <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
- <head>
- 	<meta charset="UTF-8">
- 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
- 	<meta name="viewport" content="width=device-width,initial-scale=1">
- 	<title>All</title>
- 	<meta name="theme-color" content="#fff">
-	<link type="text/css" href="main.759ff49fdf1d265ec165.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-	<link type="text/css" href="app.e02f0d432c75ed480c55.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-	<noscript>
-		<link type="text/css" href="main.759ff49fdf1d265ec165.css" rel="stylesheet" />
-		<link type="text/css" href="app.e02f0d432c75ed480c55.css" rel="stylesheet" />
-	</noscript>
- </head>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>All</title>
+	<meta name="theme-color" content="#fff">
+   <link type="text/css" href="main.759ff49fdf1d265ec165.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+   <link type="text/css" href="app.e02f0d432c75ed480c55.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+   <link type="text/css" href="admin.d1aff68408aa67ce92e8" rel="preload" as="style" onload="this.rel='stylesheet'">
+   <noscript>
+	   <link type="text/css" href="main.759ff49fdf1d265ec165.css" rel="stylesheet" />
+	   <link type="text/css" href="app.e02f0d432c75ed480c55.css" rel="stylesheet" />
+	   <link type="text/css" href="admin.d1aff68408aa67ce92e8" rel="stylesheet" />
+   </noscript>
+</head>
 
- <body style="opacity: 0;">
- 	<header class="main-header">
- 		<div class="confirm-email-banner">
- 			<p class="confirm-email-banner_info"> <img src="./images/icons/info.svg" class="icon" /> Your email
- 				<b>wallspic@gmail.com</b> has not been confirmed. </p> <a href="#">Resend confirmation</a>
- 		</div>
- 		<div class="header">
- 			<div class="header__left_side header_side">
- 				<div class="mobile_toggle_menu"> <svg class="icon">
- 						<use xlink:href="./images/icons_sprite.svg#icon-menu"></use>
- 					</svg> </div> <a href="/" class="header-logo"> <img src="./images/logo.svg" alt="Wallspic logo" />
- 				</a>
- 				<nav class="header-menu">
- 					<ul class="header-menu-list">
- 						<li class="header-menu-list__item"> <a href="./all.html"
- 								class="header-menu-list__item-link">Все обои</a> </li>
- 						<li class="header-menu-list__item"> <a class="header-menu-list__item-link">На телефон</a> </li>
- 						<li class="header-menu-list__item"> <a class="header-menu-list__item-link">На рабочий стол</a>
- 						</li>
- 						<li class="header-menu-list__item"> <a href="./collections.html"
- 								class="header-menu-list__item-link">Коллекции</a> </li>
- 						<li class="header-menu-list__item selectors_categories with-hover"> <a
- 								class="header-menu-list__item-link">Категории</a>
- 							<ul class="selectors_list">
- 								<li class="selectors_list__item header-menu-list__item"> <a
- 										class="selectors_list__item-link">Аниме</a> </li>
- 								<li class="selectors_list__item header-menu-list__item"> <a
- 										class="selectors_list__item-link header-menu-list__item-link">Летние</a> </li>
- 								<li class="selectors_list__item header-menu-list__item"> <a
- 										class="selectors_list__item-link header-menu-list__item-link">Арты</a> </li>
- 								<li class="selectors_list__item header-menu-list__item"> <a
- 										class="selectors_list__item-link header-menu-list__item-link">Граффити</a>
- 								</li>
- 							</ul>
- 						</li>
- 					</ul>
- 				</nav>
- 				<nav class="mobile_menu">
- 					<div class="mobile_menu-header"> <svg class="mobile_toggle_menu close_icon">
- 							<use xlink:href="./images/icons_sprite.svg#icon-close"></use>
- 						</svg>
- 						<div class="header-logo"> <img src="./images/logo.svg" alt="Wallspic logo" /> </div>
- 					</div>
- 					<ul class="mobile_menu-list">
- 						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
- 									class="icon_item_menu" src="./images/icons/all.svg" alt="Все обои" />Все обои</a>
- 						</li>
- 						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
- 									class="icon_item_menu" src="./images/icons/icon-mobile.svg" alt="На телефон" />На
- 								телефон</a> </li>
- 						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
- 									class="icon_item_menu" src="./images/icons/icon-desktop.svg" alt="На телефон" />На
- 								рабочий стол</a> </li>
- 						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
- 									class="icon_item_menu" src="./images/icons/icon-smile.svg"
- 									alt="На телефон" />Крутые</a> </li>
- 						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
- 									class="icon_item_menu" src="./images/icons/icon-collection.svg"
- 									alt="На телефон" />Коллекции</a> </li>
- 						<li class="mobile_menu-list__item"> <a
- 								class="mobile_menu-list__item-link list_wrap_action"><img class="icon_item_menu"
- 									src="./images/icons/icon-category.svg" alt="На телефон" />Категории</a>
- 							<ul class="wrapping_list">
- 								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Аниме</a>
- 								</li>
- 								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Летние</a>
- 								</li>
- 								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Арты</a>
- 								</li>
- 								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Граффити</a>
- 								</li>
- 							</ul>
- 						</li>
- 					</ul>
- 					<div class="mobile_menu-languages"> <span class="mobile_menu-languages-main list_wrap_action"> <img
- 								src="./images/icons/en.svg" alt="English" /> <span>English</span> </span>
- 						<ul class="mobile_menu-languages-list wrapping_list">
- 							<li class="mobile_menu-languages-list__item"> <a href="#"
- 									class="mobile_menu-languages-list__item-link"> Türkçe </a> </li>
- 							<li class="mobile_menu-languages-list__item"> <a href="#"
- 									class="mobile_menu-languages-list__item-link"> Русский </a> </li>
- 							<li class="mobile_menu-languages-list__item"> <a href="#"
- 									class="mobile_menu-languages-list__item-link"> Français </a> </li>
- 							<li class="mobile_menu-languages-list__item"> <a href="#"
- 									class="mobile_menu-languages-list__item-link"> 中文, 汉语 </a> </li>
- 							<li class="mobile_menu-languages-list__item"> <a href="#"
- 									class="mobile_menu-languages-list__item-link"> Українська </a> </li>
- 							<li class="mobile_menu-languages-list__item"> <a href="#"
- 									class="mobile_menu-languages-list__item-link"> Polski </a> </li>
- 						</ul>
- 					</div>
- 				</nav>
- 				<div class="dark_bg"></div>
- 			</div>
- 			<div class="header__right_side header_side">
- 				<div class="header-search_container"> <svg class="icon toggle_search">
- 						<use xlink:href="./images/icons_sprite.svg#icon-search"></use>
- 					</svg>
- 					<div class="header-search_container_toggled"> <svg class="icon-arrow toggle_search">
- 							<use xlink:href="./images/icons_sprite.svg#icon-arrow_pagination"></use>
- 						</svg>
- 						<div class="header-search"> <input name="search" class="header-search_input"
- 								placeholder="Search wallpapers" /> <svg class="header-search_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-search"></use>
- 							</svg> </div>
- 					</div>
- 				</div>
- 				<div class="header-languages selectors button_action_menu without-arrow"> <span
- 						class="header-languages-main"> <img src="./images/icons/en.svg" alt="English" /> </span>
- 					<ul class="header-languages-list selectors_list">
- 						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
- 									class="selector_value">Türkçe</span> </a> </li>
- 						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
- 									class="selector_value">Русский</span> </a> </li>
- 						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
- 									class="selector_value">English</span> </a> </li>
- 						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
- 									class="selector_value">Français</span> </a> </li>
- 						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
- 									class="selector_value">中文, 汉语</span> </a> </li>
- 						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
- 									class="selector_value">Українська</span> </a> </li>
- 						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
- 									class="selector_value">Polski</span> </a> </li>
- 					</ul>
- 				</div>
- 				<div class="header-account_info"> <a class="login_button button" href="./sign_in.html">Вход</a> <a
- 						class="register_button button" href="./sign_up.html">Регистрация</a> <a class="account_button"
- 						href="./sign_in.html"> <svg class="icon">
- 							<use xlink:href="./images/icons_sprite.svg#icon-account"></use>
- 						</svg> </a> </div>
- 			</div>
- 		</div>
- 	</header>
- 	<div class="admin-tools">
- 		<div class="admin-tools__tool dashboard"> <img src="./images/icons/admin.svg" /> <span
- 				class="tool-bar">Admin</span> </div>
- 		<div class="admin-tools__tool edit"> <img src="./images/icons/edit-admin.svg" /> <span
- 				class="tool-bar">Edit</span> </div>
- 		<div class="admin-tools__tool top"> <img src="./images/icons_sprite.svg#icon-fire" /> <span
- 				class="tool-bar">Top</span> </div>
- 	</div>
- 	<main class="home-page">
- 		<section class="main_banner full-container">
- 			<picture>
- 				<source media="(max-width: 600px)" data-srcset="./images/main_banner_mob.webp" /> <img
- 					class="background_image lazy blured" data-src="./images/main_banner.webp" /> </picture>
- 			<div class="main_banner-info">
- 				<h1 class="main-title">Wallpapers for everyone</h1>
- 				<h2 class="pre-title">Find the best wallpapers for your phone, tablet or PC</h2>
- 				<div class="search_container"> <input type="text" name="search" placeholder="Найти обои" /> </div>
- 				<ul class="tranding_section-list">
- 					<li class="tranding_section-list__item tranding_section-title">Tranding:</li>
- 					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
- 							href="#">Nature</a> </li>
- 					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
- 							href="#">Apple</a> </li>
- 					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
- 							href="#">Vaporwave</a> </li>
- 					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
- 							href="#">Money</a> </li>
- 				</ul>
- 			</div>
- 		</section>
- 		<section class="slider_categories_container">
- 			<h3 class="default-title">Download HD Wallpapers</h3>
- 			<div class="slider_categories_container-info">
- 				<p class="default-description">Explore the most searched pictures by theme and mood</p>
- 			</div>
- 			<div class="slider_categories">
- 				<div class="slider_categories-prev slider_categories-arrow hidden_arrow"> <svg class="arrow-icon">
- 						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
- 					</svg> </div>
- 				<ul class="slider_categories-list with_bg">
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
- 							href="#">Обои на заставку</a> <img data-src="http://placeimg.com/301/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
- 							Обои</a> <img data-src="http://placeimg.com/168/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
- 							Обои</a> <img data-src="http://placeimg.com/223/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
- 							href="#">Обои на экран блокировки</a> <img data-src="http://placeimg.com/242/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
- 							Обои</a> <img data-src="http://placeimg.com/240/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
- 							Обои</a> <img data-src="http://placeimg.com/301/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
- 							href="#">Full HD Обои</a> <img data-src="http://placeimg.com/104/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
- 							href="#">Обои для Mac</a> <img data-src="http://placeimg.com/350/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
- 							href="#">Обои на заставку</a> <img data-src="http://placeimg.com/242/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
- 							href="#">Обои на заставку</a> <img data-src="http://placeimg.com/368/68/any"
- 							class="slider_categories-list__item-img blured lazy" /> </li>
- 				</ul>
- 				<div class="slider_categories-next slider_categories-arrow"> <svg class="arrow-icon">
- 						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
- 					</svg> </div>
- 			</div>
- 		</section>
- 		<section class="slider_categories_container">
- 			<h3 class="default-title"><a href="#" class="link_with_arrow">New Desktop Wallpapers</a><a
- 					class="view_all_link" href="#">View All</a></h3>
- 			<div class="slider_categories_container-info">
- 				<p class="default-description">Explore the most searched pictures by theme and mood</p> <a
- 					class="show_more_link" href="#">Show more</a>
- 			</div>
- 			<div class="slider_categories">
- 				<div class="slider_categories-prev slider_categories-arrow hidden_arrow"> <svg class="arrow-icon">
- 						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
- 					</svg> </div>
- 				<ul class="slider_categories-list with_images">
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/508/220/any" width="508" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/546/220/any" width="546" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/648/220/any" width="648" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/320/220/any" width="320" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/465/220/any" width="465" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/654/220/any" width="654" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/516/220/any" width="516" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/346/220/any" width="346" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/265/220/any" width="265" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/618/220/any" width="618" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/359/220/any" width="359" height="220"> </a>
- 						</div>
- 					</li>
- 					<li class="slider_categories-list__item">
- 						<div class="image_component_container">
- 							<div class="left_side side_container">
- 								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 									</svg> </div>
- 							</div>
- 							<div class="right_side side_container">
- 								<div class="action_buttons__button like_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 									</svg> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 									</svg> </div>
- 								<div class="action_buttons__button important_button"> <svg class="action_icon">
- 										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 									</svg> </div>
- 							</div> <a href="./image.html" class="image_component_container__link"> <img
- 									class="image_component_container__img lazy blured"
- 									data-src="http://placeimg.com/625/220/any" width="625" height="220"> </a>
- 						</div>
- 					</li>
- 				</ul>
- 				<div class="slider_categories-next slider_categories-arrow"> <svg class="arrow-icon">
- 						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
- 					</svg> </div>
- 			</div>
- 		</section>
- 		<section class="slider_categories_container">
- 			<h3 class="default-title">Recently collections<a class="view_all_link" href="#">View All</a></h3>
- 			<div class="slider_categories_container-info">
- 				<p class="default-description">Here you will find pictures for any resolution of mobile screens</p> <a
- 					class="show_more_link" href="#">Show more</a>
- 			</div>
- 			<div class="slider_categories">
- 				<div class="slider_categories-prev slider_categories-arrow hidden_arrow"> <svg class="arrow-icon">
- 						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
- 					</svg> </div>
- 				<ul class="slider_categories-list with_collections">
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+633</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">447 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+62</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">656 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+324</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">665 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+372</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">287 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+248</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">147 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+699</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">238 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+424</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">18 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+52</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">143 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+6</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">341 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+186</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">448 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+389</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">1 изображений</span>
- 							</div>
- 						</a> </li>
- 					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
- 							<div class="collection_item_gallery">
- 								<ul class="collection_item_gallery-images"> <img
- 										class="lazy blured collection_item_gallery-images-image main-collection-image"
- 										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
- 									<div class="additional_images"> <img
- 											class="lazy blured collection_item_gallery-images-image"
- 											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 										<div class="second_image"> <img
- 												class="lazy blured collection_item_gallery-images-image"
- 												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
- 											<span class="count_images">+99</span> </div>
- 									</div>
- 								</ul>
- 								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
- 									class="collection_item_gallery-helper">229 изображений</span>
- 							</div>
- 						</a> </li>
- 				</ul>
- 				<div class="slider_categories-next slider_categories-arrow"> <svg class="arrow-icon">
- 						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
- 					</svg> </div>
- 			</div>
- 		</section>
- 		<section class="categories-wallpapers">
- 			<h3 class="default-title">Catogories</h3>
- 			<ul class="categories-wallpapers-list">
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">0</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">0</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">1</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">1</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">1</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">1</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">10</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">12</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">14</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">14</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">16</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">19</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">2</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">21</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">22</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">23</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">3</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">5</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">5</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">6</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">8</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">8</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">9</a> <span class="color_category"></span> </li>
- 				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
- 						href="#">9</a> <span class="color_category"></span> </li>
- 			</ul>
- 		</section>
- 		<section class="main_info">
- 			<h1 class="default-title">Tranding Wallpapers</h1>
- 			<p class="default-description">Scroll through professional, high-resolution images for your online designs
- 			</p>
- 		</section>
- 		<section class="gallery_section">
- 			<div class="gallery_section-grid">
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * .8885135135135135);flex-grow:calc(var(--row-resize) * 0.8885135135135135)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:112.54752851711027%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/789/888/any" width="789" height="888"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 2.4960629921259843);flex-grow:calc(var(--row-resize) * 2.4960629921259843)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:40.063091482649845%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/634/254/any" width="634" height="254"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 1.3401759530791788);flex-grow:calc(var(--row-resize) * 1.3401759530791788)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:74.61706783369803%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/457/341/any" width="457" height="341"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * .9625151148730351);flex-grow:calc(var(--row-resize) * 0.9625151148730351)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:103.89447236180905%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/796/827/any" width="796" height="827"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 2.0245535714285716);flex-grow:calc(var(--row-resize) * 2.0245535714285716)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:49.393605292172%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/907/448/any" width="907" height="448"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * .8415529905561385);flex-grow:calc(var(--row-resize) * 0.8415529905561385)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:118.82793017456359%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/802/953/any" width="802" height="953"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 1.4398826979472141);flex-grow:calc(var(--row-resize) * 1.4398826979472141)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:69.4501018329939%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/491/341/any" width="491" height="341"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * .45241038318912236);flex-grow:calc(var(--row-resize) * 0.45241038318912236)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:221.03825136612022%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/366/809/any" width="366" height="809"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 2.710059171597633);flex-grow:calc(var(--row-resize) * 2.710059171597633)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:36.89956331877729%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/916/338/any" width="916" height="338"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * .9399585921325052);flex-grow:calc(var(--row-resize) * 0.9399585921325052)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:106.38766519823788%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/908/966/any" width="908" height="966"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * .4971014492753623);flex-grow:calc(var(--row-resize) * 0.4971014492753623)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:201.1661807580175%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/343/690/any" width="343" height="690"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 1.1626297577854672);flex-grow:calc(var(--row-resize) * 1.1626297577854672)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:86.01190476190476%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/672/578/any" width="672" height="578"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 1.1361867704280155);flex-grow:calc(var(--row-resize) * 1.1361867704280155)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:88.01369863013699%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/876/771/any" width="876" height="771"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * 1.3314993122420908);flex-grow:calc(var(--row-resize) * 1.3314993122420908)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:75.10330578512396%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/968/727/any" width="968" height="727"> </div>
- 					</a>
- 				</div>
- 				<div class="image_component_container" href="#"
- 					style="width:calc(var(--row-height) * .5870901639344263);flex-grow:calc(var(--row-resize) * 0.5870901639344263)">
- 					<div class="left_side side_container">
- 						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
- 							</svg> </div>
- 					</div>
- 					<div class="right_side side_container">
- 						<div class="action_buttons__button like_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button collection_action"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
- 							</svg> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
- 							</svg> </div>
- 						<div class="action_buttons__button important_button"> <svg class="action_icon">
- 								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
- 							</svg> </div>
- 					</div> <a href="./image.html" class="image_component_container__link">
- 						<div style="padding-bottom:170.33158813263526%"> <img
- 								class="image_component_container__img lazy blured"
- 								data-src="http://placeimg.com/573/976/any" width="573" height="976"> </div>
- 					</a>
- 				</div>
- 			</div>
- 		</section>
- 		<div class="button-container"> <a href="#" class="button yellow-button"> See more wallpapers </a> </div>
- 		<section class="description_main">
- 			<h6 class="default-title">Free images, videos and music you can use anywhere</h6>
- 			<p class="default-description"> File conversion can be a bottleneck for graphic designers, and we’re very
- 				happy to turn our guns on solving this pain for you. VistaCreate image converter streamlines the design
- 				process for our users as much as possible. As you’re converting, you have access to the interactive
- 				dashboard with the batch of the processed files. At any given moment, you can proceed to download them
- 				in bulk. </p>
- 		</section>
- 		<section class="apps_banner full-container">
- 			<div class="apps_banner-content">
- 				<div class="apps_banner-info">
- 					<h5 class="apps_banner-info-title">Download Wallspic to your device</h5>
- 					<p class="apps_banner-info-description">File conversion can be a bottleneck for graphic designers,
- 						and we’re very happy to turn our guns on solving this pain for you. VistaCreate image converter
- 						streamlines the design process for our users as much as possible. </p>
- 					<ul class="application_list">
- 						<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
- 									src="./images/app_apple.svg" alt="App Store button" /> </a> </li>
- 						<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
- 									src="./images/app_gplay.svg" alt="Google Play button" /> </a> </li>
- 					</ul>
- 				</div> <img class="lazy blured phones_image" data-src="./images/apps_banner_phones.webp" />
- 			</div>
- 		</section>
- 	</main>
- 	<div class="cookie_alert"> <img src="./images/cookie.webp" class="cookie_alert-img" />
- 		<p class="cookie_alert-info"> Продолжив, вы соглашаетесь с нашей <a href="#">Политикой конфиденциальности</a>,
- 			включая использование файлов cookies и других технологий отслеживания. </p> <button
- 			class="yellow-button accept-cookies">OK</button>
- 	</div>
- 	<div class="popups_container">
- 		<div class="popup popup-collection"> <button class="close_popup"> <svg class="icon">
- 					<use xlink:href="./images/icons_sprite.svg#icon-close"></use>
- 				</svg> </button>
- 			<div class="popup-collection_preview"> <img class="lazy blured" data-src="./images/collection.webp" />
- 			</div>
- 			<div class="collection_container steps_container">
- 				<div class="collection_container-actions step_container">
- 					<h2 class="collection_container-title">Add to Collection</h2>
- 					<div class="search_collection"> <input type="text" class="search_collection-input"
- 							name="search_collection" placeholder="Search" /> </div>
- 					<div class="all_collection_container">
- 						<div class="collection_item create_collection next_step">
- 							<div class="collection_item-button_collection"> <img class="collection_image lazy"
- 									data-src="./images/collection.webp" /> </div>
- 							<p class="collection_item-info"> <span class="collection_item-info-title">Create a new
- 									collection</span> </p>
- 						</div>
- 						<ul class="collections_list">
- 							<li class="collection_item">
- 								<div class="collection_item-button_collection"> <img class="collection_image lazy"
- 										data-src="http://placeimg.com/60/60/any" /> </div>
- 								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
- 										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
- 										class="collection_item-info-helper">23 images</span> </p>
- 							</li>
- 							<li class="collection_item">
- 								<div class="collection_item-button_collection"> <img class="collection_image lazy"
- 										data-src="http://placeimg.com/60/60/any" /> </div>
- 								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
- 										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
- 										class="collection_item-info-helper">46 images</span> </p>
- 							</li>
- 							<li class="collection_item">
- 								<div class="collection_item-button_collection"> <img class="collection_image lazy"
- 										data-src="http://placeimg.com/60/60/any" /> </div>
- 								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
- 										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
- 										class="collection_item-info-helper">69 images</span> </p>
- 							</li>
- 							<li class="collection_item">
- 								<div class="collection_item-button_collection"> <img class="collection_image lazy"
- 										data-src="http://placeimg.com/60/60/any" /> </div>
- 								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
- 										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
- 										class="collection_item-info-helper">92 images</span> </p>
- 							</li>
- 							<li class="collection_item">
- 								<div class="collection_item-button_collection"> <img class="collection_image lazy"
- 										data-src="http://placeimg.com/60/60/any" /> </div>
- 								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
- 										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
- 										class="collection_item-info-helper">115 images</span> </p>
- 							</li>
- 						</ul>
- 					</div>
- 				</div>
- 				<form class="popup-form create_collection-form step_container">
- 					<h2 class="popup-form-title">Create Collection</h2>
- 					<div class="form_input"> <label class="form_input-label">Name</label> <input type="text"
- 							name="title_collection" placeholder="Name of collection" /> </div>
- 					<div class="form_input"> <label class="form_input-label">Description</label> <span
- 							class="form_input-helper">(optional)</span> <textarea
- 							name="description_collection"></textarea> </div>
- 					<div class="form_buttons">
- 						<div class="button cancel-button prev_step">Cancel</div> <button
- 							class="button yellow-button">Create collection</button>
- 					</div>
- 				</form>
- 			</div>
- 		</div>
- 		<div class="popup popup-edit-collection"> <button class="close_popup"> <svg class="icon">
- 					<use xlink:href="./images/icons_sprite.svg#icon-close"></use>
- 				</svg> </button>
- 			<form class="popup-form step_container">
- 				<h2 class="popup-form-title">Edit Collection</h2>
- 				<div class="form_input"> <label class="form_input-label">Name</label> <input type="text"
- 						name="title_collection" placeholder="Name of collection" /> </div>
- 				<div class="form_input"> <label class="form_input-label">Description</label> <span
- 						class="form_input-helper">(optional)</span> <textarea name="description_collection"></textarea>
- 				</div>
- 				<div class="form_buttons">
- 					<div class="button delete-button">Delete collection</div> <button
- 						class="yellow-button">Save</button>
- 				</div>
- 			</form>
- 		</div>
- 	</div>
- 	<footer class="footer">
- 		<div class="footer_top__container">
- 			<div class="footer_info-project">
- 				<h6 class="footer_info-title">Wallspic</h6>
- 				<p class="footer_info-project-description"> Лучшие обои для рабочего стола, мобильного телефона или
- 					планшета. Самая большая коллекция картинок и фотографий для бесплатного скачивания. </p>
- 				<ul class="application_list">
- 					<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
- 								src="./images/app_apple.svg" alt="App Store button" /> </a> </li>
- 					<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
- 								src="./images/app_gplay.svg" alt="Google Play button" /> </a> </li>
- 				</ul>
- 			</div>
- 			<div class="footer_info-navbar">
- 				<div class="footer_info-menu">
- 					<h5 class="footer_info-title">Популярное</h5>
- 					<h5 class="footer_info-title list_wrap_action only_mobile">Популярное</h5>
- 					<ul class="footer_info-menu_list wrapping_list">
- 						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link">
- 								Популярные обои </a> </li>
- 						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Лучшие
- 								обои </a> </li>
- 						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link">
- 								Популярные теги </a> </li>
- 					</ul>
- 				</div>
- 				<div class="footer_info-menu">
- 					<h5 class="footer_info-title">Обои</h5>
- 					<h5 class="footer_info-title list_wrap_action only_mobile">Обои</h5>
- 					<ul class="footer_info-menu_list wrapping_list">
- 						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Заставки
- 								на телефон </a> </li>
- 						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Обои для
- 								Android </a> </li>
- 						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Обои 4k
- 							</a> </li>
- 						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Обои для
- 								iPhone </a> </li>
- 					</ul>
- 				</div>
- 			</div>
- 		</div>
- 		<div class="footer_bottom__container"> <span class="copyright"> © 2019 <a class="copyright_link"
- 					href="/">wallspic.com</a> </span>
- 			<ul class="important_links-list">
- 				<li class="important_links-list__item"> <a href="#"
- 						class="important_links-list__item-link">Пользовательское соглашение</a> </li>
- 				<li class="important_links-list__item"> <a href="#" class="important_links-list__item-link">Политика
- 						конфиденциальности</a> </li>
- 				<li class="important_links-list__item"> <a href="#" class="important_links-list__item-link">DMCA</a>
- 				</li>
- 			</ul>
- 			<div class="footer-languages selectors to_top"> <span class="footer-languages-main selectors_selected">
- 					English </span>
- 				<ul class="footer-languages-list selectors_list">
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/tk.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
- 						</a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/pt.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
- 						</a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/es.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
- 						</a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/de.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
- 						</a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/ru.svg" alt="Русский" /> <span
- 								class="selector_value">Русский</span> </a> </li>
- 					<li class="selectors_list__item selected"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/en.svg" alt="English" /> <span
- 								class="selector_value">English</span> </a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/fr.svg" alt="Français" /> <span
- 								class="selector_value">Français</span> </a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/cn.svg" alt="中文, 汉语" /> <span class="selector_value">中文, 汉语</span>
- 						</a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/ua.svg" alt="Українська" /> <span
- 								class="selector_value">Українська</span> </a> </li>
- 					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
- 								src="./images/icons/pl.svg" alt="Polski" /> <span class="selector_value">Polski</span>
- 						</a> </li>
- 				</ul>
- 			</div>
- 		</div>
- 	</footer>
- 	<script defer src="./js/main.31d6cfe0d16ae931b73c.js"></script>
- 	<script defer src="./js/vendors.85681a9d2d8ad56b0cb4.js"></script>
- 	<script defer src="./js/app.76fd7a522fef83b95404.js"></script>
- 	<script defer src="./js/account.0302a42eba162f7b61f6.js"></script>
- 	<script defer src="./js/admin.31d6cfe0d16ae931b73c.js"></script>
- </body>
+<body style="opacity: 0;">
+	<header class="main-header">
+		<div class="confirm-email-banner">
+			<p class="confirm-email-banner_info"> <img src="./images/icons/info.svg" class="icon" /> Your email
+				<b>wallspic@gmail.com</b> has not been confirmed. </p> <a href="#">Resend confirmation</a>
+		</div>
+		<div class="header">
+			<div class="header__left_side header_side">
+				<div class="mobile_toggle_menu"> <svg class="icon">
+						<use xlink:href="./images/icons_sprite.svg#icon-menu"></use>
+					</svg> </div> <a href="/" class="header-logo"> <img src="./images/logo.svg" alt="Wallspic logo" />
+				</a>
+				<nav class="header-menu">
+					<ul class="header-menu-list">
+						<li class="header-menu-list__item"> <a href="./all.html"
+								class="header-menu-list__item-link">Все обои</a> </li>
+						<li class="header-menu-list__item"> <a class="header-menu-list__item-link">На телефон</a> </li>
+						<li class="header-menu-list__item"> <a class="header-menu-list__item-link">На рабочий стол</a>
+						</li>
+						<li class="header-menu-list__item"> <a href="./collections.html"
+								class="header-menu-list__item-link">Коллекции</a> </li>
+						<li class="header-menu-list__item selectors_categories with-hover"> <a
+								class="header-menu-list__item-link">Категории</a>
+							<ul class="selectors_list">
+								<li class="selectors_list__item header-menu-list__item"> <a
+										class="selectors_list__item-link">Аниме</a> </li>
+								<li class="selectors_list__item header-menu-list__item"> <a
+										class="selectors_list__item-link header-menu-list__item-link">Летние</a> </li>
+								<li class="selectors_list__item header-menu-list__item"> <a
+										class="selectors_list__item-link header-menu-list__item-link">Арты</a> </li>
+								<li class="selectors_list__item header-menu-list__item"> <a
+										class="selectors_list__item-link header-menu-list__item-link">Граффити</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<nav class="mobile_menu">
+					<div class="mobile_menu-header"> <svg class="mobile_toggle_menu close_icon">
+							<use xlink:href="./images/icons_sprite.svg#icon-close"></use>
+						</svg>
+						<div class="header-logo"> <img src="./images/logo.svg" alt="Wallspic logo" /> </div>
+					</div>
+					<ul class="mobile_menu-list">
+						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
+									class="icon_item_menu" src="./images/icons/all.svg" alt="Все обои" />Все обои</a>
+						</li>
+						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
+									class="icon_item_menu" src="./images/icons/icon-mobile.svg" alt="На телефон" />На
+								телефон</a> </li>
+						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
+									class="icon_item_menu" src="./images/icons/icon-desktop.svg" alt="На телефон" />На
+								рабочий стол</a> </li>
+						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
+									class="icon_item_menu" src="./images/icons/icon-smile.svg"
+									alt="На телефон" />Крутые</a> </li>
+						<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link"><img
+									class="icon_item_menu" src="./images/icons/icon-collection.svg"
+									alt="На телефон" />Коллекции</a> </li>
+						<li class="mobile_menu-list__item"> <a
+								class="mobile_menu-list__item-link list_wrap_action"><img class="icon_item_menu"
+									src="./images/icons/icon-category.svg" alt="На телефон" />Категории</a>
+							<ul class="wrapping_list">
+								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Аниме</a>
+								</li>
+								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Летние</a>
+								</li>
+								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Арты</a>
+								</li>
+								<li class="mobile_menu-list__item"> <a class="mobile_menu-list__item-link">Граффити</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="mobile_menu-languages"> <span class="mobile_menu-languages-main list_wrap_action"> <img
+								src="./images/icons/en.svg" alt="English" /> <span>English</span> </span>
+						<ul class="mobile_menu-languages-list wrapping_list">
+							<li class="mobile_menu-languages-list__item"> <a href="#"
+									class="mobile_menu-languages-list__item-link"> Türkçe </a> </li>
+							<li class="mobile_menu-languages-list__item"> <a href="#"
+									class="mobile_menu-languages-list__item-link"> Русский </a> </li>
+							<li class="mobile_menu-languages-list__item"> <a href="#"
+									class="mobile_menu-languages-list__item-link"> Français </a> </li>
+							<li class="mobile_menu-languages-list__item"> <a href="#"
+									class="mobile_menu-languages-list__item-link"> 中文, 汉语 </a> </li>
+							<li class="mobile_menu-languages-list__item"> <a href="#"
+									class="mobile_menu-languages-list__item-link"> Українська </a> </li>
+							<li class="mobile_menu-languages-list__item"> <a href="#"
+									class="mobile_menu-languages-list__item-link"> Polski </a> </li>
+						</ul>
+					</div>
+				</nav>
+				<div class="dark_bg"></div>
+			</div>
+			<div class="header__right_side header_side">
+				<div class="header-search_container"> <svg class="icon toggle_search">
+						<use xlink:href="./images/icons_sprite.svg#icon-search"></use>
+					</svg>
+					<div class="header-search_container_toggled"> <svg class="icon-arrow toggle_search">
+							<use xlink:href="./images/icons_sprite.svg#icon-arrow_pagination"></use>
+						</svg>
+						<div class="header-search"> <input name="search" class="header-search_input"
+								placeholder="Search wallpapers" /> <svg class="header-search_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-search"></use>
+							</svg> </div>
+					</div>
+				</div>
+				<div class="header-languages selectors button_action_menu without-arrow"> <span
+						class="header-languages-main"> <img src="./images/icons/en.svg" alt="English" /> </span>
+					<ul class="header-languages-list selectors_list">
+						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
+									class="selector_value">Türkçe</span> </a> </li>
+						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
+									class="selector_value">Русский</span> </a> </li>
+						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
+									class="selector_value">English</span> </a> </li>
+						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
+									class="selector_value">Français</span> </a> </li>
+						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
+									class="selector_value">中文, 汉语</span> </a> </li>
+						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
+									class="selector_value">Українська</span> </a> </li>
+						<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <span
+									class="selector_value">Polski</span> </a> </li>
+					</ul>
+				</div>
+				<div class="header-account_info"> <a class="login_button button" href="./sign_in.html">Вход</a> <a
+						class="register_button button" href="./sign_up.html">Регистрация</a> <a class="account_button"
+						href="./sign_in.html"> <svg class="icon">
+							<use xlink:href="./images/icons_sprite.svg#icon-account"></use>
+						</svg> </a> </div>
+			</div>
+		</div>
+	</header>
+	<div class="admin-tools">
+		<div class="admin-tools__tool dashboard"> <img src="./images/icons/admin.svg" /> <span
+				class="tool-bar">Admin</span> </div>
+		<div class="admin-tools__tool edit"> <img src="./images/icons/edit-admin.svg" /> <span
+				class="tool-bar">Edit</span> </div>
+		<div class="admin-tools__tool top"> <img src="./images/icons_sprite.svg#icon-fire" /> <span
+				class="tool-bar">Top</span> </div>
+	</div>
+	<main class="home-page">
+		<section class="main_banner full-container">
+			<picture>
+				<source media="(max-width: 600px)" data-srcset="./images/main_banner_mob.webp" /> <img
+					class="background_image lazy blured" data-src="./images/main_banner.webp" /> </picture>
+			<div class="main_banner-info">
+				<h1 class="main-title">Wallpapers for everyone</h1>
+				<h2 class="pre-title">Find the best wallpapers for your phone, tablet or PC</h2>
+				<div class="search_container"> <input type="text" name="search" placeholder="Найти обои" /> </div>
+				<ul class="tranding_section-list">
+					<li class="tranding_section-list__item tranding_section-title">Tranding:</li>
+					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
+							href="#">Nature</a> </li>
+					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
+							href="#">Apple</a> </li>
+					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
+							href="#">Vaporwave</a> </li>
+					<li class="tranding_section-list__item"> <a class="tranding_section-list__item-link"
+							href="#">Money</a> </li>
+				</ul>
+			</div>
+		</section>
+		<section class="slider_categories_container">
+			<h3 class="default-title">Download HD Wallpapers</h3>
+			<div class="slider_categories_container-info">
+				<p class="default-description">Explore the most searched pictures by theme and mood</p>
+			</div>
+			<div class="slider_categories">
+				<div class="slider_categories-prev slider_categories-arrow hidden_arrow"> <svg class="arrow-icon">
+						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
+					</svg> </div>
+				<ul class="slider_categories-list with_bg">
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
+							href="#">Обои на заставку</a> <img data-src="http://placeimg.com/301/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
+							Обои</a> <img data-src="http://placeimg.com/168/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
+							Обои</a> <img data-src="http://placeimg.com/223/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
+							href="#">Обои на экран блокировки</a> <img data-src="http://placeimg.com/242/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
+							Обои</a> <img data-src="http://placeimg.com/240/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">4k
+							Обои</a> <img data-src="http://placeimg.com/301/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
+							href="#">Full HD Обои</a> <img data-src="http://placeimg.com/104/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
+							href="#">Обои для Mac</a> <img data-src="http://placeimg.com/350/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
+							href="#">Обои на заставку</a> <img data-src="http://placeimg.com/242/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link"
+							href="#">Обои на заставку</a> <img data-src="http://placeimg.com/368/68/any"
+							class="slider_categories-list__item-img blured lazy" /> </li>
+				</ul>
+				<div class="slider_categories-next slider_categories-arrow"> <svg class="arrow-icon">
+						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
+					</svg> </div>
+			</div>
+		</section>
+		<section class="slider_categories_container">
+			<h3 class="default-title"><a href="#" class="link_with_arrow">New Desktop Wallpapers</a><a
+					class="view_all_link" href="#">View All</a></h3>
+			<div class="slider_categories_container-info">
+				<p class="default-description">Explore the most searched pictures by theme and mood</p> <a
+					class="show_more_link" href="#">Show more</a>
+			</div>
+			<div class="slider_categories">
+				<div class="slider_categories-prev slider_categories-arrow hidden_arrow"> <svg class="arrow-icon">
+						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
+					</svg> </div>
+				<ul class="slider_categories-list with_images">
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/508/220/any" width="508" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/546/220/any" width="546" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/648/220/any" width="648" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/320/220/any" width="320" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/465/220/any" width="465" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/654/220/any" width="654" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/516/220/any" width="516" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/346/220/any" width="346" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/265/220/any" width="265" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/618/220/any" width="618" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/359/220/any" width="359" height="220"> </a>
+						</div>
+					</li>
+					<li class="slider_categories-list__item">
+						<div class="image_component_container">
+							<div class="left_side side_container">
+								<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+									</svg> </div>
+							</div>
+							<div class="right_side side_container">
+								<div class="action_buttons__button like_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+									</svg> </div>
+								<div class="action_buttons__button collection_action"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+									</svg> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+									</svg> </div>
+								<div class="action_buttons__button important_button"> <svg class="action_icon">
+										<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+									</svg> </div>
+							</div> <a href="./image.html" class="image_component_container__link"> <img
+									class="image_component_container__img lazy blured"
+									data-src="http://placeimg.com/625/220/any" width="625" height="220"> </a>
+						</div>
+					</li>
+				</ul>
+				<div class="slider_categories-next slider_categories-arrow"> <svg class="arrow-icon">
+						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
+					</svg> </div>
+			</div>
+		</section>
+		<section class="slider_categories_container">
+			<h3 class="default-title">Recently collections<a class="view_all_link" href="#">View All</a></h3>
+			<div class="slider_categories_container-info">
+				<p class="default-description">Here you will find pictures for any resolution of mobile screens</p> <a
+					class="show_more_link" href="#">Show more</a>
+			</div>
+			<div class="slider_categories">
+				<div class="slider_categories-prev slider_categories-arrow hidden_arrow"> <svg class="arrow-icon">
+						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
+					</svg> </div>
+				<ul class="slider_categories-list with_collections">
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+633</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">447 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+62</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">656 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+324</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">665 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+372</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">287 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+248</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">147 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+699</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">238 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+424</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">18 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+52</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">143 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+6</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">341 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+186</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">448 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+389</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">1 изображений</span>
+							</div>
+						</a> </li>
+					<li class="slider_categories-list__item"> <a class="slider_categories-list__item-link" href="#">
+							<div class="collection_item_gallery">
+								<ul class="collection_item_gallery-images"> <img
+										class="lazy blured collection_item_gallery-images-image main-collection-image"
+										data-src="http://placeimg.com/210/210/any" width="210" height="210" />
+									<div class="additional_images"> <img
+											class="lazy blured collection_item_gallery-images-image"
+											data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+										<div class="second_image"> <img
+												class="lazy blured collection_item_gallery-images-image"
+												data-src="http://placeimg.com/111/103/any" width="111" height="103" />
+											<span class="count_images">+99</span> </div>
+									</div>
+								</ul>
+								<h5 class="collection_item_gallery-title">Black AMOLED</h5> <span
+									class="collection_item_gallery-helper">229 изображений</span>
+							</div>
+						</a> </li>
+				</ul>
+				<div class="slider_categories-next slider_categories-arrow"> <svg class="arrow-icon">
+						<use xlink:href="./images/icons_sprite.svg#icon-arrow"></use>
+					</svg> </div>
+			</div>
+		</section>
+		<section class="categories-wallpapers">
+			<h3 class="default-title">Catogories</h3>
+			<ul class="categories-wallpapers-list">
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">0</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">0</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">1</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">1</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">1</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">1</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">10</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">12</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">14</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">14</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">16</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">19</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">2</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">21</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">22</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">23</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">3</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">5</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">5</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">6</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">8</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">8</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">9</a> <span class="color_category"></span> </li>
+				<li class="categories-wallpapers-list__item"> <a class="categories-wallpapers-list__item-link"
+						href="#">9</a> <span class="color_category"></span> </li>
+			</ul>
+		</section>
+		<section class="main_info">
+			<h1 class="default-title">Tranding Wallpapers</h1>
+			<p class="default-description">Scroll through professional, high-resolution images for your online designs
+			</p>
+		</section>
+		<section class="gallery_section">
+			<div class="gallery_section-grid">
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * .8885135135135135);flex-grow:calc(var(--row-resize) * 0.8885135135135135)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:112.54752851711027%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/789/888/any" width="789" height="888"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 2.4960629921259843);flex-grow:calc(var(--row-resize) * 2.4960629921259843)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:40.063091482649845%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/634/254/any" width="634" height="254"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 1.3401759530791788);flex-grow:calc(var(--row-resize) * 1.3401759530791788)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:74.61706783369803%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/457/341/any" width="457" height="341"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * .9625151148730351);flex-grow:calc(var(--row-resize) * 0.9625151148730351)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:103.89447236180905%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/796/827/any" width="796" height="827"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 2.0245535714285716);flex-grow:calc(var(--row-resize) * 2.0245535714285716)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:49.393605292172%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/907/448/any" width="907" height="448"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * .8415529905561385);flex-grow:calc(var(--row-resize) * 0.8415529905561385)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:118.82793017456359%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/802/953/any" width="802" height="953"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 1.4398826979472141);flex-grow:calc(var(--row-resize) * 1.4398826979472141)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:69.4501018329939%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/491/341/any" width="491" height="341"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * .45241038318912236);flex-grow:calc(var(--row-resize) * 0.45241038318912236)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:221.03825136612022%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/366/809/any" width="366" height="809"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 2.710059171597633);flex-grow:calc(var(--row-resize) * 2.710059171597633)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:36.89956331877729%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/916/338/any" width="916" height="338"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * .9399585921325052);flex-grow:calc(var(--row-resize) * 0.9399585921325052)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:106.38766519823788%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/908/966/any" width="908" height="966"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * .4971014492753623);flex-grow:calc(var(--row-resize) * 0.4971014492753623)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:201.1661807580175%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/343/690/any" width="343" height="690"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 1.1626297577854672);flex-grow:calc(var(--row-resize) * 1.1626297577854672)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:86.01190476190476%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/672/578/any" width="672" height="578"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 1.1361867704280155);flex-grow:calc(var(--row-resize) * 1.1361867704280155)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:88.01369863013699%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/876/771/any" width="876" height="771"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * 1.3314993122420908);flex-grow:calc(var(--row-resize) * 1.3314993122420908)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:75.10330578512396%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/968/727/any" width="968" height="727"> </div>
+					</a>
+				</div>
+				<div class="image_component_container" href="#"
+					style="width:calc(var(--row-height) * .5870901639344263);flex-grow:calc(var(--row-resize) * 0.5870901639344263)">
+					<div class="left_side side_container">
+						<div class="action_buttons__button top_image_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-fire"></use>
+							</svg> </div>
+					</div>
+					<div class="right_side side_container">
+						<div class="action_buttons__button like_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-like"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-liked"></use>
+							</svg> </div>
+						<div class="action_buttons__button collection_action"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collection"></use>
+							</svg> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-collected"></use>
+							</svg> </div>
+						<div class="action_buttons__button important_button"> <svg class="action_icon">
+								<use xlink:href="./images/icons_sprite.svg#icon-pinterest"></use>
+							</svg> </div>
+					</div> <a href="./image.html" class="image_component_container__link">
+						<div style="padding-bottom:170.33158813263526%"> <img
+								class="image_component_container__img lazy blured"
+								data-src="http://placeimg.com/573/976/any" width="573" height="976"> </div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<div class="button-container"> <a href="#" class="button yellow-button"> See more wallpapers </a> </div>
+		<section class="description_main">
+			<h6 class="default-title">Free images, videos and music you can use anywhere</h6>
+			<p class="default-description"> File conversion can be a bottleneck for graphic designers, and we’re very
+				happy to turn our guns on solving this pain for you. VistaCreate image converter streamlines the design
+				process for our users as much as possible. As you’re converting, you have access to the interactive
+				dashboard with the batch of the processed files. At any given moment, you can proceed to download them
+				in bulk. </p>
+		</section>
+		<section class="apps_banner full-container">
+			<div class="apps_banner-content">
+				<div class="apps_banner-info">
+					<h5 class="apps_banner-info-title">Download Wallspic to your device</h5>
+					<p class="apps_banner-info-description">File conversion can be a bottleneck for graphic designers,
+						and we’re very happy to turn our guns on solving this pain for you. VistaCreate image converter
+						streamlines the design process for our users as much as possible. </p>
+					<ul class="application_list">
+						<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
+									src="./images/app_apple.svg" alt="App Store button" /> </a> </li>
+						<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
+									src="./images/app_gplay.svg" alt="Google Play button" /> </a> </li>
+					</ul>
+				</div> <img class="lazy blured phones_image" data-src="./images/apps_banner_phones.webp" />
+			</div>
+		</section>
+	</main>
+	<div class="cookie_alert"> <img src="./images/cookie.webp" class="cookie_alert-img" />
+		<p class="cookie_alert-info"> Продолжив, вы соглашаетесь с нашей <a href="#">Политикой конфиденциальности</a>,
+			включая использование файлов cookies и других технологий отслеживания. </p> <button
+			class="yellow-button accept-cookies">OK</button>
+	</div>
+	<div class="popups_container">
+		<div class="popup popup-collection"> <button class="close_popup"> <svg class="icon">
+					<use xlink:href="./images/icons_sprite.svg#icon-close"></use>
+				</svg> </button>
+			<div class="popup-collection_preview"> <img class="lazy blured" data-src="./images/collection.webp" />
+			</div>
+			<div class="collection_container steps_container">
+				<div class="collection_container-actions step_container">
+					<h2 class="collection_container-title">Add to Collection</h2>
+					<div class="search_collection"> <input type="text" class="search_collection-input"
+							name="search_collection" placeholder="Search" /> </div>
+					<div class="all_collection_container">
+						<div class="collection_item create_collection next_step">
+							<div class="collection_item-button_collection"> <img class="collection_image lazy"
+									data-src="./images/collection.webp" /> </div>
+							<p class="collection_item-info"> <span class="collection_item-info-title">Create a new
+									collection</span> </p>
+						</div>
+						<ul class="collections_list">
+							<li class="collection_item">
+								<div class="collection_item-button_collection"> <img class="collection_image lazy"
+										data-src="http://placeimg.com/60/60/any" /> </div>
+								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
+										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
+										class="collection_item-info-helper">23 images</span> </p>
+							</li>
+							<li class="collection_item">
+								<div class="collection_item-button_collection"> <img class="collection_image lazy"
+										data-src="http://placeimg.com/60/60/any" /> </div>
+								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
+										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
+										class="collection_item-info-helper">46 images</span> </p>
+							</li>
+							<li class="collection_item">
+								<div class="collection_item-button_collection"> <img class="collection_image lazy"
+										data-src="http://placeimg.com/60/60/any" /> </div>
+								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
+										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
+										class="collection_item-info-helper">69 images</span> </p>
+							</li>
+							<li class="collection_item">
+								<div class="collection_item-button_collection"> <img class="collection_image lazy"
+										data-src="http://placeimg.com/60/60/any" /> </div>
+								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
+										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
+										class="collection_item-info-helper">92 images</span> </p>
+							</li>
+							<li class="collection_item">
+								<div class="collection_item-button_collection"> <img class="collection_image lazy"
+										data-src="http://placeimg.com/60/60/any" /> </div>
+								<p class="collection_item-info"> <span class="collection_item-info-title">Trees,
+										Mountains, Changing Leaves, Palmssdfsdfsf</span> <span
+										class="collection_item-info-helper">115 images</span> </p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<form class="popup-form create_collection-form step_container">
+					<h2 class="popup-form-title">Create Collection</h2>
+					<div class="form_input"> <label class="form_input-label">Name</label> <input type="text"
+							name="title_collection" placeholder="Name of collection" /> </div>
+					<div class="form_input"> <label class="form_input-label">Description</label> <span
+							class="form_input-helper">(optional)</span> <textarea
+							name="description_collection"></textarea> </div>
+					<div class="form_buttons">
+						<div class="button cancel-button prev_step">Cancel</div> <button
+							class="button yellow-button">Create collection</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="popup popup-edit-collection"> <button class="close_popup"> <svg class="icon">
+					<use xlink:href="./images/icons_sprite.svg#icon-close"></use>
+				</svg> </button>
+			<form class="popup-form step_container">
+				<h2 class="popup-form-title">Edit Collection</h2>
+				<div class="form_input"> <label class="form_input-label">Name</label> <input type="text"
+						name="title_collection" placeholder="Name of collection" /> </div>
+				<div class="form_input"> <label class="form_input-label">Description</label> <span
+						class="form_input-helper">(optional)</span> <textarea name="description_collection"></textarea>
+				</div>
+				<div class="form_buttons">
+					<div class="button delete-button">Delete collection</div> <button
+						class="yellow-button">Save</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer_top__container">
+			<div class="footer_info-project">
+				<h6 class="footer_info-title">Wallspic</h6>
+				<p class="footer_info-project-description"> Лучшие обои для рабочего стола, мобильного телефона или
+					планшета. Самая большая коллекция картинок и фотографий для бесплатного скачивания. </p>
+				<ul class="application_list">
+					<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
+								src="./images/app_apple.svg" alt="App Store button" /> </a> </li>
+					<li class="application_list__item"> <a class="application_list__item-link" href="#"> <img
+								src="./images/app_gplay.svg" alt="Google Play button" /> </a> </li>
+				</ul>
+			</div>
+			<div class="footer_info-navbar">
+				<div class="footer_info-menu">
+					<h5 class="footer_info-title">Популярное</h5>
+					<h5 class="footer_info-title list_wrap_action only_mobile">Популярное</h5>
+					<ul class="footer_info-menu_list wrapping_list">
+						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link">
+								Популярные обои </a> </li>
+						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Лучшие
+								обои </a> </li>
+						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link">
+								Популярные теги </a> </li>
+					</ul>
+				</div>
+				<div class="footer_info-menu">
+					<h5 class="footer_info-title">Обои</h5>
+					<h5 class="footer_info-title list_wrap_action only_mobile">Обои</h5>
+					<ul class="footer_info-menu_list wrapping_list">
+						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Заставки
+								на телефон </a> </li>
+						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Обои для
+								Android </a> </li>
+						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Обои 4k
+							</a> </li>
+						<li class="footer_info-menu_list__item"> <a class="footer_info-menu_list__item-link"> Обои для
+								iPhone </a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom__container"> <span class="copyright"> © 2019 <a class="copyright_link"
+					href="/">wallspic.com</a> </span>
+			<ul class="important_links-list">
+				<li class="important_links-list__item"> <a href="#"
+						class="important_links-list__item-link">Пользовательское соглашение</a> </li>
+				<li class="important_links-list__item"> <a href="#" class="important_links-list__item-link">Политика
+						конфиденциальности</a> </li>
+				<li class="important_links-list__item"> <a href="#" class="important_links-list__item-link">DMCA</a>
+				</li>
+			</ul>
+			<div class="footer-languages selectors to_top"> <span class="footer-languages-main selectors_selected">
+					English </span>
+				<ul class="footer-languages-list selectors_list">
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/tk.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
+						</a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/pt.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
+						</a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/es.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
+						</a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/de.svg" alt="Türkçe" /> <span class="selector_value">Türkçe</span>
+						</a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/ru.svg" alt="Русский" /> <span
+								class="selector_value">Русский</span> </a> </li>
+					<li class="selectors_list__item selected"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/en.svg" alt="English" /> <span
+								class="selector_value">English</span> </a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/fr.svg" alt="Français" /> <span
+								class="selector_value">Français</span> </a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/cn.svg" alt="中文, 汉语" /> <span class="selector_value">中文, 汉语</span>
+						</a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/ua.svg" alt="Українська" /> <span
+								class="selector_value">Українська</span> </a> </li>
+					<li class="selectors_list__item"> <a href="#" class="selectors_list__item-link"> <img
+								src="./images/icons/pl.svg" alt="Polski" /> <span class="selector_value">Polski</span>
+						</a> </li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script defer src="./js/main.31d6cfe0d16ae931b73c.js"></script>
+	<script defer src="./js/vendors.85681a9d2d8ad56b0cb4.js"></script>
+	<script defer src="./js/app.76fd7a522fef83b95404.js"></script>
+	<script defer src="./js/account.0302a42eba162f7b61f6.js"></script>
+	<script defer src="./js/admin.31d6cfe0d16ae931b73c.js"></script>
+</body>
 
- </html>
+</html>
